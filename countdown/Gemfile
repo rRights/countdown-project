@@ -51,3 +51,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# -----> Below are my added gems <----- #
+# use HAML for HTML
+gem 'haml'
+# for text to speech use festivaltts4r
+gem 'festivaltts4r'
+# for counter use DateTime
+# gem 'date' does not seem to be working - reason unknown - gem not found 
+
