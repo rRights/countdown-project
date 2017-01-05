@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'count_down#index'
+
   get 'count_down/index'
 
   get 'demo/helloworld'
